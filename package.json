@@ -40,10 +40,7 @@
     }
   ],
   "analytics": [
-    "example",
-    "example2",
-    "appnexus",
-    "ga"
+    "appnexus"
   ],
   "author": "the prebid.js contributors",
   "license": "Apache-2.0",

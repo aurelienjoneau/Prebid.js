@@ -25,7 +25,7 @@ export default utils.extend(adapter(
   },
 
   enqueue({ eventType, args }) {
-    console.log('`enqueue` function override for AppNexus Prebid Analytics');
+    console.log(` enqueue function override for AppNexus Prebid Analytics with eventType ${eventType} and payload ${args}.`);
     // update BidEvent object in queue
   }
 });

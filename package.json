@@ -42,6 +42,7 @@
   "analytics": [
     "example",
     "example2",
+    "appnexus",
     "ga"
   ],
   "author": "the prebid.js contributors",

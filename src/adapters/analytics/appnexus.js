@@ -19,12 +19,13 @@ export default utils.extend(adapter(
   {
   // Override AnalyticsAdapter functions by supplying custom methods
   track({ eventType, args }) {
-    console.log('track function override for AppNexus Prebid Analytics');
+    console.log('`track` function override for AppNexus Prebid Analytics');
 
     //ajax(url, (result) => console.log('Analytics Endpoint Example2: result = ' + result), JSON.stringify({ eventType, args }));
   },
 
   enqueue({ eventType, args }) {
+    console.log('`enqueue` function override for AppNexus Prebid Analytics');
     // update BidEvent object in queue
   }
 });
